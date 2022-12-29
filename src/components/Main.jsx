@@ -1,11 +1,12 @@
 import React from 'react'
 import Info from './Info'
+import Photo from '/src/assets/mm-photo.jpg'
 import Footer from './Footer'
 
 export default function Main() {
     return(
         <div className="main-container">
-            <img className='profile-picture' src="./src/assets/mm-photo.jpg" alt="profile-picture" />
+            <img className='profile-picture' src={Photo} alt="profile-picture" />
             <div className="basic-text">
                 <h1 className='name-title'>Michael Murray</h1>
                 <p className="job-text lt">Frontend Developer</p>
